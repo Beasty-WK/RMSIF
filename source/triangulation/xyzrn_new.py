@@ -1,4 +1,4 @@
-from default_config.chemistry import radii, polarHydrogens
+from default_config.chemistry import radii
 
 def output_pdb_as_xyzrn(pdbfilename, xyzrnfilename, Mg = None):
     fid = open(pdbfilename, "r")
